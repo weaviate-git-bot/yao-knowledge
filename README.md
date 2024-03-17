@@ -64,7 +64,7 @@ services:
       - "5080"
       - --scheme
       - http
-    image: semitechnologies/weaviate:latest
+    image: cr.weaviate.io/semitechnologies/weaviate:latest
     ports:
       - 5080:5080
     restart: unless-stopped
